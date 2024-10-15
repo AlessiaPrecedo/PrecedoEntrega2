@@ -1,0 +1,289 @@
+/*hoja de index con boostrap*/
+
+
+
+.carousel-item{
+max-height: 600px;
+
+}
+.but-ton{
+    border-radius: 5%;
+    background-color: brown;
+}
+.row{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+/*hoja de contacto y pagos*/
+body{
+  background-color:rgb(255 193 7);
+}
+
+ .input__center{
+    text-align: center; font-size: 30px;
+ }
+ .input__center--botton{
+    font-size: 50px;
+border-radius: 10px;
+text-align: center;
+}
+.div__form{
+ display: block;
+ background-color:brown;
+ margin: 100px;
+ border-radius: 10px;
+ padding: 100px;
+}
+.label__campo{
+    font-size: 30px;
+
+}
+.input__campo{
+    font-size: 50px;
+    border-radius: 10px;
+}
+.form__flecx{
+    text-align: center;
+    gap: 10px;
+
+}
+.h2__two{
+    text-align: center; letter-spacing: 2px;
+}
+.h2__two--one{
+   text-align: center;
+    font-size: 40px; word-spacing: 10px; 
+}
+/*hoja de nuestros productos*/
+.ContainerDeFotos{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    gap: 20px; /* le da espaciado a las fotos*/
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  margin: auto;
+  background-color: brown;
+  border-radius: 10px;
+  
+}
+.ContainerDeFotos__x{
+    border-radius: 10px;
+    font-size: 50px;
+    justify-content: center;
+}
+.ContainerDeFotos__boxi{
+    display: flex;
+    font-size: 30px; 
+     border-radius: 10px;
+     background-color: rgb(231, 135, 135);
+     margin: auto
+}
+.e-x{
+    display: flex;
+ flex-direction: row;
+ width: 700px;
+justify-content: center;
+    padding: 10px;
+    margin: auto;
+     background-color:brown;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.ContainerDeFotos__p{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+/*hoja de ubicacion*/
+
+.div__box{
+    display: grid;
+  grid-template-areas: "box-one box-two";
+width: 1200px;
+height: 700px;
+background-color: brown;
+border-radius: 10px;
+}
+.box-one{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    padding: 30px;
+}
+.box-two{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+ justify-content: baseline;
+ padding: 30px;
+    font-size: 30px;
+
+    
+
+}
+
+
+@media screen and (max-width:578px) {
+.label__campo{
+    font-size: 20px;
+    gap: 10px;
+    }
+    .input__campo{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    }
+    .input__center{
+        font-size: 20px;
+    }
+    .div__form{
+        display: block;                    /*hoja de contactos-pagos-responsive*/    
+        margin: 10px; 
+        padding:40px 
+    }
+.h2__two--one{
+    text-align: center;
+    font-size: 30px;
+}
+.h2__two{
+    text-align: center;
+    font-size: 20px;
+}
+/*hoja mis productos*/
+.ContainerDeFotos{
+    display: flex;
+flex-direction: column;
+width: 400px;
+height: 1200px;
+justify-content: center;
+
+}
+.ContainerDeFotos__x{
+display: flex;
+    width: 120px;
+ height: 200px;
+ margin: auto;
+}
+.ContainerDeFotos__p{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.e-x{
+    display: flex;
+ flex-direction: row;
+ width: 400px;
+justify-content: center;
+    padding: 10px;
+    margin: auto;
+     background-color:brown;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+/*hoja de ubicacion*/
+.div__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 1000px;
+    border-radius: 10px;
+padding: 10px;
+margin: 40px;
+}
+
+.box-one{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+ height: 400px;
+ padding: 10px;
+ justify-content: center;
+ margin: auto;
+}
+.box-two{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+    font-size: 20px;
+    width: 400px;
+    height: 600px;
+
+}
+}
+
+
+@media screen and (min-width:1024px)
+{
+    .label__campo{
+        font-size: 30px;
+        gap: 10px;
+        }
+        .input__campo{
+        font-size: 30px;
+        border-radius: 5px;
+        padding: 15px;
+        }
+        .input__center{
+            font-size: 30px;
+        }
+        .div__form{
+            display: block;                    /*hoja de contactos-pagos-responsive*/    
+            margin: 10px; 
+            padding:40px 
+        }
+        .h2__two--one{
+            text-align: center;
+            font-size: 30px;
+        }
+        .h2__two{
+            text-align: center;
+            font-size: 20px;
+        }
+        .input__center{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        /*hoja mis productos*/
+        .ContainerDeFotos__x{
+            display: flex;
+                width: 180px;
+             height: 200px;
+             margin: auto;
+            }
+            .ContainerDeFotos__p{
+                display: flex;
+                font-size: 20px;
+                justify-content: center;
+            }
+            .e-x{
+                display: flex;
+             flex-direction: row;
+             width: 400px;
+            justify-content: center;
+                padding: 10px;
+                margin: auto;
+                 background-color:brown;
+                border-radius: 10px;
+                font-size: 20px;
+            
+            }
+            .ContainerDeFotos{
+                display: flex;
+            flex-direction: row;
+            width: 900px;
+            height: 400px;
+            justify-content: center;
+            
+
+}
+
+
+}
